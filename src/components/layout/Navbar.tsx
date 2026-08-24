@@ -1,4 +1,4 @@
-import react frotm 'react';
+import react from 'react';
 import "./Navbar.css";
 
 export const Navbar: React.FC = () => {
