@@ -1,13 +1,14 @@
-import react from 'react';
+import React from 'react';
 import "./Navbar.css";
-
+import Logo from '../../assets/logo.svg';
+import logosen from '../../assets/logosen.svg';
 export const Navbar: React.FC = () => {
   return (
     <header className="navbar-container">
         <div className="navbar-inner">
-            <a href="#hero" className="navbar-logo">
-                <span className="logo-symbol">&lt;s&gt;</span>
-                <span className="logo-text">senstudio.es</span>
+            <a href="#hero" className="navbar-brand">
+                <img src={Logo} alt="Isotipo SEN" className="navbar-logo-img" />
+                <img src={logosen} alt="SEN Studio" className="navbar-name-img" />
             </a>
 
             <nav className="navbar-links">

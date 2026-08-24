@@ -46,7 +46,20 @@
 .nav-item:hover {
   color: var(--text-primary);
 }
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
 
+.navbar-logo-img {
+  height: 26px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
 .navbar-cta {
   background-color: var(--accent-magenta);
   color: #ffffff;
@@ -61,7 +74,11 @@
   background-color: var(--accent-magenta-hover);
   transform: translateY(-1px);
 }
-
+.navbar-name-img {
+  height: 18px;
+  width: auto;
+  display: block;
+}
 @media (max-width: 768px) {
   .navbar-links {
     display: none;
